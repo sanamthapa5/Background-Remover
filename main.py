@@ -3,7 +3,7 @@ import easygui
 
 from PIL import Image  
 inputPath=easygui.fileopenbox(title='select image')
-outputPath=easygui.filesavebox(title='Prefered location to save image')
+outputPath=easygui.filesavebox(title='Your Prefered location to save output image')
 
 input=Image.open(inputPath)
 output=remove(input)
